@@ -1,7 +1,26 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Adicionar";
 }
 
 <h1>Aqui voce adiciona</h1>
+
+<!--Aqui eu peguei um formulario padrão do Bootstrap-->
+<form>
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="tel" class="form-control">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <!--Aqui eu coloquei o botão de voltar-->
+    <a class="btn btn-secondary" roler="btn" asp-controller="Contato" asp-action="Index">Voltar</a>
+   
+</form>
