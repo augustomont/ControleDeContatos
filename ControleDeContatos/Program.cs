@@ -1,7 +1,14 @@
+using ControleDeContatos.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<BancoContext>//Aqui eu to trazendo a chamada pra criar o banco pra pagina principal
+    (options => options.UseSqlServer("server=DESKTOP-O6V28ED\\SQLEXPRESS; Database=Db_Contatos; trusted_connection=true; TrustServerCertificate=true"));
 
 var app = builder.Build();
 
