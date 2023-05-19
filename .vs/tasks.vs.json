@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-_Layout.cshtml",
+      "appliesTo": "ControleDeContatos/Views/Shared/_Layout.cshtml.css",
+      "type": "launch"
+    }
+  ]
+}

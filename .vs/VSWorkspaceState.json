@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ControleDeContatos",
+    "\\ControleDeContatos\\Controllers",
+    "\\ControleDeContatos\\Models",
+    "\\ControleDeContatos\\Views",
+    "\\ControleDeContatos\\Views\\Contato",
+    "\\ControleDeContatos\\Views\\Shared"
+  ],
+  "SelectedNode": "\\ControleDeContatos\\Views\\Shared\\_Layout.cshtml.css",
+  "PreviewInSolutionExplorer": true
+}
